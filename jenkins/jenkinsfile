@@ -13,7 +13,7 @@ agent any
                 step{
                    sh '''
                     echo "MEMORY DETAILS"
-                    free -mh
+                    free -m
                     '''
                 }
             }
