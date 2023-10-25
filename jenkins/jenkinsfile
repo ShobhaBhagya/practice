@@ -4,7 +4,7 @@ agent any
             stage('Build-System details'){
                 steps{
 		    sh '''
-                    echo '"ip address"'
+                    echo '"ip-address"'
 		    hostname -I 
 		      '''
                 }
